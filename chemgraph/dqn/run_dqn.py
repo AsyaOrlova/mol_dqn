@@ -27,6 +27,9 @@ import time
 from absl import app
 from absl import flags
 from absl import logging
+
+import sys
+sys.path.append('C://Users//computer//Documents//GitHub')
 from baselines.baselines.common import schedules
 from baselines.baselines.deepq import replay_buffer
 
